@@ -2,5 +2,7 @@
   "name": "Axolv — Restructuring",
   "description": "We're rebuilding something better. Stay tuned.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

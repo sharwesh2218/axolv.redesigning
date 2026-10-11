@@ -41,7 +41,7 @@ export default function App() {
         </div>
 
         {/* Heading: Responsive typography */}
-        <h1 className="mt-5 sm:mt-7 md:mt-8 lg:mt-9 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold tracking-tight text-[#1E2721]">
+        <h1 className="mt-5 sm:mt-7 md:mt-8 lg:mt-9 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-[#161F18] font-['Space_Grotesk',sans-serif]">
           Under Maintenance
         </h1>
 
