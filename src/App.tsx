@@ -6,6 +6,7 @@
 import React from 'react';
 import AxolvLogo from './components/AxolvLogo';
 import CautionStripe from './components/CautionStripe';
+import ContactButton from './components/ContactButton';
 
 export default function App() {
   return (
@@ -51,8 +52,13 @@ export default function App() {
         </p>
       </div>
 
+      {/* Bottom Interactive Contact Us Button */}
+      <div className="w-full flex justify-center items-center px-4 mb-4 sm:mb-5 mt-auto z-20">
+        <ContactButton />
+      </div>
+
       {/* Hazard Caution Tape Stripe anchored at the bottom edge */}
-      <CautionStripe className="w-full h-4 sm:h-5 md:h-6 shrink-0 mt-auto" />
+      <CautionStripe className="w-full h-4 sm:h-5 md:h-6 shrink-0" />
     </main>
   );
 }
