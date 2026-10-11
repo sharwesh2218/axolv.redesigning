@@ -97,10 +97,9 @@ export const ContactButton: React.FC = () => {
       <button
         type="button"
         onClick={() => setIsOpen((prev) => !prev)}
-        className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-medium text-[#38463D] bg-[#EFECE5] hover:bg-[#E5E1D8] border border-[#DDD9CE] transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#94C83D]"
+        className="inline-flex items-center justify-center px-4 py-1.5 rounded-lg text-xs font-medium text-[#38463D] bg-[#EFECE5] hover:bg-[#E5E1D8] border border-[#DDD9CE] transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#94C83D]"
         aria-expanded={isOpen}
       >
-        <span className="w-1.5 h-1.5 rounded-full bg-[#94C83D]" />
         <span>Contact Us</span>
       </button>
     </div>
