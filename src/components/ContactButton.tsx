@@ -46,9 +46,9 @@ export const ContactButton: React.FC = () => {
           <div className="flex flex-col gap-1">
             {/* Call Link */}
             <a
-              href="tel:6379501085"
+              href="tel:6379501095"
               className="flex items-center gap-2.5 px-3 py-2 rounded-lg text-xs font-medium text-[#2C382E] hover:bg-[#F6F5F1] hover:text-[#18231B] transition-colors"
-              title="Call 6379501085"
+              title="Call 6379501095"
             >
               <svg
                 className="w-3.5 h-3.5 text-[#94C83D] shrink-0"
@@ -64,7 +64,7 @@ export const ContactButton: React.FC = () => {
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 />
               </svg>
-              <span>6379501085</span>
+              <span>6379501095</span>
             </a>
 
             {/* Email Link */}
